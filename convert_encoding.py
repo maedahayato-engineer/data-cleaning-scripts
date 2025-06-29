@@ -15,7 +15,6 @@ def convert_to_utf8(input_file, output_file='converted_sample.csv'):
     df = pd.read_csv(input_file, encoding=encoding)
     df.to_csv(output_file, index=False, encoding='utf-8')
     print(f"File saved as {output_file} with UTF-8 encoding")
-# 実行部分
+# 実行部分(直接実行の時のみ)
 if __name__ == "__main__":
-    # 例: sample.csvをUTF-8に変換
     convert_to_utf8("sample.csv")
