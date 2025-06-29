@@ -1,6 +1,7 @@
 import pandas as pd
 
-df = pd.read_csv('sample.csv',na_values=["", " ", "NAN", "NaN"])  # 例: 欠損ありCSV
+# CSVファイルを読み込み、欠損数を確認
+df = pd.read_csv('sample.csv',na_values=["", " ", "NAN", "NaN"])  
 print("欠損の数:")
 print(df.isnull().sum())
 
