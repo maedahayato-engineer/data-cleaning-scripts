@@ -1,7 +1,0 @@
-customer_id,name,age,email,signup_date,purchase_amount
-1,山田太郎,28.0,taro@example.com,2024-04-15,12000.0
-2,佐藤花子,30.8,hanako@example.com,2023-11-02,8500.0
-3,鈴木一郎,41.0,ichiro@example.com,2022-07-09,9800.0
-4,高橋美咲,25.0,misaki@example.com,2024-01-21,7580.0
-5,田中健太,31.0,kenta@example.com,2023-09-30,0.0
-6,中村優子,29.0,yuko@example.com,2024-03-18,7600.0
